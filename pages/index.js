@@ -5,15 +5,15 @@ import React from 'react'
 export default function Home() {
   const router = useRouter()
   function userClickHandler(){
-    router.replace("/users")
+    router.push("/users")
   }
   return (
     <div>
-      <h1>Home Js pre-rendering</h1>
+      <h1>Hay mom how are you</h1>
       <button type="button" onClick={userClickHandler}>Users</button>
-      {/* <Link href="/users">
-        <a> Users Page</a>
-      </Link> */}
+      <Link href="/posts">
+        <a>Posts</a>
+      </Link>
     </div>
   )
 }
