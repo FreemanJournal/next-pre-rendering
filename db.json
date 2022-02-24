@@ -1,4 +1,24 @@
 {
+  "news": [
+    {
+      "id":1,
+      "title":"Sports Article 1",
+      "description":"Sports are dying 1",
+      "category":"sports"
+    },
+    {
+      "id":2,
+      "title":"Entertainment Article 2",
+      "description":"Description 2",
+      "category":"entertainment"
+    },
+    {
+      "id":3,
+      "title":"Sports Article 3",
+      "description":"Description 3",
+      "category":"sports"
+    }
+  ],
   "products": [
     {
       "id": 1,
