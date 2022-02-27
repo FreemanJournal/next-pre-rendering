@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+.main{
+  padding: 4em;
+  background: #CAD5E2;
+  color: #03203C;
+}
+.item{
+  border:1px solid #242B2E;
+  margin: 1em 0;
+  padding: 1em;
+}
